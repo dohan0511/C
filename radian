@@ -1,0 +1,27 @@
+#include<stdio.h>
+#define r 1
+int main()
+{
+	int s;
+	double l,x,i;
+	l=r;
+	x=(360*l)/(2*3.14159*r);
+	printf("1 radian = %lf\n",x);
+	do
+	{
+		printf("type number\n1. radian to degree\n2. degree to radian\n3. exit\n");
+		scanf("%d",&s);
+		if(s==1)
+		{
+			scanf("%lf",&i);
+			printf("%lf\n",i*x);
+		}
+		if(s==2)
+		{
+			scanf("%lf",&i);
+			printf("%lf\n",i*x);
+		}
+	}
+	while(s!=3);
+	return 0;
+}
