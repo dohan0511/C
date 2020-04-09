@@ -19,7 +19,7 @@ int main()
 		if(s==2)
 		{
 			scanf("%lf",&i);
-			printf("%lf\n",i*x);
+			printf("%lf\n",i/x);
 		}
 	}
 	while(s!=3);
